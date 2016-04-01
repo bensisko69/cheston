@@ -15,7 +15,7 @@
 	<nav>
 		<ul class='nav nav-pills nav-justified'>
 			<li role="presentation" class="active"><a href="creation.php">Creation client</a></li>
-			<li role="presentation"><a href="gallery.php">Gallery</a></li>
+			<li role="presentation"><a href="gallery.php">Recherche</a></li>
 			<li role="presentation" ><a href="../traitement/logout.php">Deconnexion</a></li>
 		</ul>
 	</nav>

@@ -15,7 +15,7 @@
 	<nav>
 		<ul class='nav nav-tabs nav-justified'>
 			<li role="presentation"><a href="../index.php">Creation client</a></li>
-			<li role="presentation"><a href="../template/gallery.php">Gallery</a></li>
+			<li role="presentation"><a href="../template/gallery.php">Recherche</a></li>
 			<li role="presentation" ><a href="../traitement/logout.php">Deconnexion</a></li>
 		</ul>
 	</nav>

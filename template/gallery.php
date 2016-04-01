@@ -15,7 +15,7 @@
 	<nav>
 		<ul class="nav nav-pills nav-justified">
 			<li role="presentation"><a href="creation.php">Creation client</a></li>
-			<li role="presentation" class="active"><a href="gallery.php">Gallery</a></li>
+			<li role="presentation" class="active"><a href="gallery.php">Recherche</a></li>
 			<li role="presentation" ><a href="../traitement/logout.php">Deconnexion</a></li>
 		</ul>
 	</nav>
@@ -40,7 +40,7 @@
 		echo "<option value='all'>Tout</option>";
 		echo "</select>";
 		echo "<input type='text' name='name' style='margin-left: 10px; margin-right: 10px'>";
-		echo "<input type='submit' value='registration'>";
+		echo "<input type='submit' value='recherche'>";
 		echo "</form>";
 		echo "<form method='POST' action='../template/fiche.php'>";
 		echo "<label style='margin-right: 10px'>Mettre l'id de la fiche a consulter </label>";

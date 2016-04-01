@@ -24,7 +24,7 @@
 	<nav>
 		<ul class='nav nav-pills nav-justified'>
 			<li role="presentation"><a href="creation.php">Creation client</a></li>
-			<li role="presentation"><a href="gallery.php">Gallery</a></li>
+			<li role="presentation"><a href="gallery.php">Recherche</a></li>
 			<li role="presentation" ><a href="../traitement/logout.php">Deconnexion</a></li>
 		</ul>
 	</nav>
@@ -106,7 +106,7 @@
 		<?php
 		echo "<input type='hidden'  name='id'  value='".$_POST["id"]."'>";
 		?>
-			<button style="margin-top: 30px" type="submit" class="btn btn-primary btn-lg btn-block"> Creation fiche client</button>
+			<button style="margin-top: 30px" type="submit" class="btn btn-primary btn-lg btn-block"> Modification fiche client</button>
 		</form>
 </div>
 </div>
