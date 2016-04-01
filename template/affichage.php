@@ -1,6 +1,8 @@
 
 <div class="col-xs-5" style="border: solid #6699cc; margin: 10px; border-radius: 10px">
 <?php
+echo "id : ";
+echo $result['id_user']."<br>";
 echo "Nom : ";
 echo $result['nom']."<br>";
 echo "Prenom : ";

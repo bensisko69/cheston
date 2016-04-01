@@ -1,4 +1,3 @@
-
 <div>
 	<fieldset><legend>creation fiche</legend>
 		<form method="POST" action="traitement/creation_user.php">

@@ -25,14 +25,21 @@ class DbbCreated
 					`observation` VARCHAR(200)
 					)";
 				$sql2 = "CREATE TABLE IF NOT EXISTS Cheston.coupe (
-					`nameChien` VARCHAR(255) NOT NULL ,
-					`date` date NOT NULL,
+					`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+					`idFiche` INTEGER NOT NULL ,
+					`dateCoupe` VARCHAR(25) NOT NULL,
 					`toilette` VARCHAR(255) NOT NULL,
 					`tarif` VARCHAR(3) NOT NULL
-				)";
+					)";
+				$sql3 = "CREATE TABLE IF NOT EXISTS Cheston.admin (
+					`id_user` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+					`user` VARCHAR(255) NOT NULL ,
+					`password` VARCHAR(255) NOT NULL
+					)";
 				$this->bdd->prepare($requete)->execute();
 				$this->bdd->exec($sql);
 				$this->bdd->exec($sql2);
+				$this->bdd->exec($sql3);
 			}
 		}
 		catch (PDOException $e){
