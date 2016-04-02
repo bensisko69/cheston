@@ -2,7 +2,6 @@
 	include 'config/setup.php';
 	new DbbCreated($DB_DSN, $DB_USER, $DB_PASSWORD);
 	session_start();
-	echo sha1("admin");
 ?>
 <!DOCTYPE html>
 <html>
