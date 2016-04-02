@@ -9,7 +9,7 @@
 	<!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
-<body style="background-image: url('doge.jpg');">
+<body style="background-image: url('doge.jpg'); background-size: 70%; background-repeat: no-repeat;background-position: center;">
 <div class="container">
 <div class="col-lg-12" >
 	<h1 style="color:  #6699cc; text-align: center;">Bienvenue sur le listing client de Cheston</h1>

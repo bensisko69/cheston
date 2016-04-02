@@ -43,7 +43,7 @@
 			<label for="inputPrenom" class="col-sm-2 control-label">Prenom: </label>
 				<div class="col-sm-10">
 			<?php 
-					echo "<input  type='text' name='prenom' value='".$result['prenom']."'class='form-control' id='inputNom' placeholder='prenom' required/>";
+					echo "<input  type='text' name='prenom' value='".$result['prenom']."'class='form-control' id='inputNom' placeholder='prenom'/>";
 				?>
 				</div>
 		</div>
@@ -51,7 +51,7 @@
 			<label for="inputEmail" class="col-sm-2 control-label">email: </label>
 				<div class="col-sm-10">
 			<?php 
-					echo "<input  type='text' name='email' value='".$result['email']."'class='form-control' id='inputNom' placeholder='email' required/>";
+					echo "<input  type='text' name='email' value='".$result['email']."'class='form-control' id='inputNom' placeholder='email' />";
 				?>
 				</div>
 		</div>
@@ -59,7 +59,7 @@
 			<label for="inputTel" class="col-sm-2 control-label">tel: </label>
 				<div class="col-sm-10">
 			<?php 
-					echo "<input  type='text' name='tel' value='".$result['tel']."'class='form-control' id='inputNom' placeholder='tel' required/>";
+					echo "<input  type='text' name='tel' value='".$result['tel']."'class='form-control' id='inputNom' placeholder='tel'/>";
 				?>
 				</div>
 		</div>
@@ -67,7 +67,7 @@
 			<label for="inputVille" class="col-sm-2 control-label">ville:</label>
 				<div class="col-sm-10">
 			<?php 
-					echo "<input  type='text' name='ville' value='".$result['ville']."'class='form-control' id='inputNom' placeholder='ville' required/>";
+					echo "<input  type='text' name='ville' value='".$result['ville']."'class='form-control' id='inputNom' placeholder='ville'/>";
 				?>
 				</div>
 		</div>
@@ -75,7 +75,7 @@
 			<label for="inputChien" class="col-sm-2 control-label">nom du chien: </label>
 				<div class="col-sm-10">
 			<?php 
-					echo "<input  type='text' name='nomChien' value='".$result['nomChien']."'class='form-control' id='inputNom' placeholder='nomChien' required/>";
+					echo "<input  type='text' name='nomChien' value='".$result['nomChien']."'class='form-control' id='inputNom' placeholder='nomChien'/>";
 				?>
 				</div>
 		</div>
@@ -91,7 +91,7 @@
 			<label for="inputDate" class="col-sm-2 control-label">date naisance: </label>
 					<div class="col-sm-10">
 				<?php 
-					echo "<input  type='text' name='date' value='".$result['date']."'class='form-control' id='inputNom' placeholder='date' required/>";
+					echo "<input  type='text' name='date' value='".$result['date']."'class='form-control' id='inputNom' placeholder='date'/>";
 				?>
 				</div>
 		</div>
