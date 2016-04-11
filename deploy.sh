@@ -1,2 +1,2 @@
-docker build -it bensisko/cheston
-docker run -dp 81:80 bensisko/cheston
+docker build -it bensisko/cheston .
+docker run --rm -it -v $PWD:/app -p 81:80 bensisko/cheston
